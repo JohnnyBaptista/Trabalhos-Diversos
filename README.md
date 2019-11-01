@@ -20,11 +20,14 @@ Siga os seguintes passos para contribuir com o repositório:
 #### 1. Faça um fork do repositório
 
 Apenas clique no botão de _**fork**_ na parte superior do site 
+
 ![Fork do Repositório](/public/imgs/fork.png "Forkando um repositório")
 
 #### 2. Clone seu fork
 
-Agora iremos virar HACKERMANS ![HACKERMAN](https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif "HACKERMAN")
+Agora iremos virar HACKERMANS 
+
+  ![HACKERMAN](https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif "HACKERMAN")
 
 ###### 1. Abra seu terminal de preferência e acesse alguma pasta conforme mostrado abaixo:
 
@@ -33,6 +36,9 @@ Agora iremos virar HACKERMANS ![HACKERMAN](https://media.giphy.com/media/RyXVu4Z
 ###### 2. Clone o repositório
 -img do link
 Basta agora você utilizar o link copiado (conforme img acima) e executar o código:
+
 ```git clone <link copiado>```
+
 Então por exemplo, eu faria:
+
 ```git clone https://github.com/JohnnyBaptista/Trabalhos-Diverso-FCTUNESP.git```
