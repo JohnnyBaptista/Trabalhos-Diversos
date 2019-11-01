@@ -24,7 +24,7 @@ Apenas clique no botão de _**fork**_ na parte superior do site
 
 #### 2. Clone seu fork
 
-Agora iremos virar HACKERMANS [!HACKERMAN](https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif "HACKERMAN")
+Agora iremos virar HACKERMANS ![HACKERMAN](https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif "HACKERMAN")
 
 ###### 1. Abra seu terminal de preferência e acesse alguma pasta conforme mostrado abaixo:
 
