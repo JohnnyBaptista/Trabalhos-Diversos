@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trabalho de Grafos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script src="busca.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <reader>
+        <div class="row">
+            <div class="col s3 center">
+                <img src="https://vecpar2018.ncc.unesp.br/wp-content/uploads/2018/09/unesp.png" alt="logo unesp"
+                    class="logo">
+            </div>
+            <div class="col s6">
+                <h1>CRIE SEU GRAFO</h1>
+                <div class="divider"></div>
+            </div>
+            <div class="col s3" style="text-align:center">
+                <a class="btn-floating btn-large waves-effect waves-light aqua bot-infos modal-trigger"
+                    href="#modal1"><i class="material-icons">people</i></a>
+                <a class="btn-floating btn-large waves-effect waves-light aqua bot-infos modal-trigger"
+                    href="#modal2"><i class="material-icons">info_outline</i></a>
+
+
+                <!-- Modal Structure -->
+                <div id="modal1" class="modal">
+                    <div class="modal-content row">
+
+                        <h3>Informações do Trabalho 1:</h3>
+                        <h6 class="col s4">
+                            <a href="https://github.com/viniciusveu?tab=repositories">Vinícius Vedovotto</a> <br>
+                            <br>
+                            <div class="divider"></div>
+                            <br>
+                            <a href="https://github.com/JohnnyBaptista">João Pedro S. Baptista </a><br>
+                        </h6>
+
+                        <h6 class="col s3">
+                            RA: 171257499 <br>
+                            <br>
+                            <div class="divider"></div>
+                            <br>
+                            RA: 171253604
+                        </h6>
+
+                        <h3 class="infos">Teoria dos Grados <br>
+                            Ciência da Computação, FCT/UNESP <br>
+                            Professor <a
+                                href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4742236T0">Danilo</a>
+                            <br>
+
+                    </div>
+                </div>
+                <div id="modal2" class="modal">
+                    <div class="modal-content row">
+
+                        <h3>O que o programa faz?</h3>
+                        <p></p>
+                        <ol>
+                            <li> Lê arquivo com um grafo para ser representado por Matriz de Adjacência ou Lista de
+                                Adjacência; </li>
+                            <li> Converte o grafo, independente da representação escolhida inicialmente para a
+                                representação de matriz de adjacência para ser compatível com os algorítmos;</li>
+                            <li> Busca em Profundidade exibindo a ordem de descoberta e finalização (d e f);</li>
+                            <li> Busca em Largura exibindo a distância (nº arestas) da raiz até cada vértice (n/a =
+                                não adjacentes);</li>
+                            <li> Caminho entre dois véstices utilizando da Busca em Profundidade, em Largura não foi
+                                implementado;</li>
+                            <li> </li>
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+
+    </reader>
+    <div class="container">
+        <div class="divider"></div>
+        <h3>Selecione o arquivo com o grafo desejado:</h3>
+        </br>
+        <form action="#">
+            <div class="file-field input-field col s5">
+                <div class="btn">
+                    <span class="txt">ABRIR GRAFO</span>
+                    <input type="file" id="txtToRead">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                </div>
+
+            </div>
+        </form>
+
+        <div class="row">
+            <a class="txt waves-effect waves-light btn-large col s12 modal-trigger" href="#modalMat">MATRIZ
+                DE ADJACÊNCIA</a>
+        </div>
+
+        <div id="modalMat" class="modal bottom-sheet">
+            <div class="modal-content">
+                <h4 class="txt">Escolha uma função: </h4>
+                <ul>
+                    <li><a onclick="objBusca.chamarDFS(grafo)"
+                            class="txt waves-effect waves-light btn-large col s12 modal-trigger" href="#modaldfs">DFS -
+                            Busca em Profundidade</a></a></li>
+                    <li><a onclick="objBusca.chamarBFS(grafo)"
+                            class="txt waves-effect waves-light btn-large col s12 modal-trigger" href="#modalbfs">BFS -
+                            Busca em Largura</a></a></li>
+                    <li><a class="txt waves-effect waves-light btn-large col s12 modal-trigger"
+                            href="#modalbusca">Caminho
+                            entre dois vértices</a></li>
+                </ul>
+
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flatt">FECHAR</a>
+            </div>
+        </div>
+
+        <div id="modaldfs" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <h4>Ordem da descoberta dos vértices: </h4>
+                <p id="dfs_resultado"></p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">FECHAR</a>
+            </div>
+        </div>
+
+        <div id="modalbfs" class="modal">
+            <div class="modal-content">
+                <h4>Distancia da raíz até cada vértice: </h4>
+                <p id="bfs_resultado"></p>
+            </div>
+        </div>
+
+        <div id="modalbusca" class="modal">
+            <div class="modal-content">
+
+                <h4 class="txt">Entre com dois vértices para fazer a verificação do caminho:</h4>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input value="0" id="u" type="number" class="validate">
+                        <label class="active" for="u">Vértice 1</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input value="0" id="v" type="number" class="validate">
+                        <label class="active" for="v">Vértice 2</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <select id="op">
+                            <option value="" disabled selected>Escolha uma opção</option>
+                            <option value="0">DFS - Profundidade</option>
+                            <option value="1">BFS - Largura (Não implementado) </option>
+                        </select>
+                        <label>Selecione o algoritmo de busca</label>
+                    </div>
+                    <div id="caminho_result">Caminho entre os vértices: </div>
+                    <div id="caminho_result2"> </div>
+                    <a class="txt waves-effect waves-light btn-small" id="xbutton">BUSCA</a>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+        var result = document.getElementById('caminho_result2');
+        var xbutton = document.getElementById('xbutton');
+        xbutton.addEventListener('click', () => {
+            result.innerHTML = objBusca.busca();
+            console.log(objBusca.busca());
+
+        }, false);
+    </script>
+    <script src="reader.js"></script>
+</body>
+
+</html>

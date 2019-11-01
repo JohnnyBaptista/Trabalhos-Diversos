@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|EB+Garamond');
+
+
+.logo {
+    max-width: 60%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+a {
+    margin-top: 50px;
+}
+
+h3, .txt{
+    font-family: 'EB Garamond', serif;
+}
+
+.bot-infos {
+    margin-top: 30px;
+
+}
+
+
+.infos {
+    font-size: 150%;
+}
