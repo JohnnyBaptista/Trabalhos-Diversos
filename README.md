@@ -1,6 +1,6 @@
 # Trabalhos Ciência da Computação 
-> Códigos prontos e projetos de trabalhos da faculdade de ciência da computação FCT-UNESP Prudente
-> Livre para uso e estudo!
+Códigos prontos e projetos de trabalhos da faculdade de ciência da computação FCT-UNESP Prudente
+Livre para uso e estudo!
 
 ### Compartilhe também!
 > Seu colaboração é muito importante para ajudar os alunos de computação a estudar e se tornarem excelentes programadores.
