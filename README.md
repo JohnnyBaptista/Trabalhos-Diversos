@@ -13,7 +13,7 @@ Nos ajude a criar um acervo para os futuros calouros da computa, o curso que tan
 > É muito fácil, você só precisa de dois requisitos:
 >
 > 1. [Git](https://git-scm.com/downloads) instalado no seu PC.
-> 2. Um projeto/exercício/trabalho completo ou não (podem ser melhorados pela comunidade também)
+> 2. Um projeto/exercício/trabalho completo (ou não, afinal a comunidade pode contribuir para seu trabalho)
 
 Siga os seguintes passos para contribuir com o repositório:
 
