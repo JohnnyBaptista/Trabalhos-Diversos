@@ -27,18 +27,60 @@ Apenas clique no botão de _**fork**_ na parte superior do site
 
 Agora iremos virar HACKERMANS 
 
-  ![HACKERMAN](https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif "HACKERMAN")
+![HACKERMAN](https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif "HACKERMAN")
 
 ###### 1. Abra seu terminal de preferência e acesse alguma pasta conforme mostrado abaixo:
 
 - linkar imgs mostrando passo a passo
 
 ###### 2. Clone o repositório
--img do link
-Basta agora você utilizar o link copiado (conforme img acima) e executar o código:
+
+Copie o link do repositório
+
+![Clone do Repositório](/public/imgs/clone.png "Clonando um repositório")
+
+Em algum diretório do seu computador você vai utilizar o link copiado e executar o código no seu terminal:
 
 ```git clone <link copiado>```
 
 Então por exemplo, eu faria:
 
 ```git clone https://github.com/JohnnyBaptista/Trabalhos-Diverso-FCTUNESP.git```
+
+Agora acesse a pasta Trabalhos-Diverso-FCTUNESP
+
+```cd  Trabalhos-Diversos-FCTUNESP```
+
+###### 3. Adicione o seu trabalho
+
+Seguindo a ***estrutura de pastas*** do repositório, procure a matéria que você deseja adicionar e coloque o copie/salve o arquivo para dentro dela.
+
+###### 4. Crie uma ramificação (branch)
+
+As **branches** serão nossa ferramenta para o controle dos trabalhos, códigos e alterações que estão entrando no repositório.
+Para criar uma branch, iremos executar no terminal o comando:
+
+```git checkout -b adc-meu-trabalho``` ou ```git checkout -b adc-meu-exercicio ``` 
+> Usaremos algo nesse formato para identificar o que a branch está controlando
+
+Então, por exemplo se eu quiser adicionar um trabalho de Programação Orientada a Objetos, posso fazer algo do tipo:
+
+```git checkout -b adc-trabalho-poo```
+
+##### 5. "Commitar" e "pushar" os arquivos adicionados/modificados
+
+Antes de enviar é preciso ***"commitar"*** os arquivos adicionados/modificados para o git entender o que você está fazendo.
+Execute:
+
+```git add .``` e em seguida
+```git commit -m "Adicionando trabalho de poo"```
+
+> Use os commits para identificar as alterações que você está fazendo nos arquivos e pastas
+
+Após isso, podemos enviar para o repositório remoto as alterações
+
+```git push origin adc-trabalho-poo```
+
+##### 6. Crie um Pull Request (PR)
+
+Quando terminarmos todos esses passos, basta agora criar um pull request para solicitarmos a insersão dos arquivos no repositório de origem. Para isto, confira as imagens abaixo
