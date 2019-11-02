@@ -27,19 +27,15 @@ Apenas clique no botão de _**fork**_ na parte superior do site
 
 Agora iremos virar **HACKERMANS** 
 
-<img align="right" src="https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif">
+<img align="center" src="https://media.giphy.com/media/RyXVu4ZW454IM/giphy.gif">
 
-###### 1. Abra seu terminal de preferência e acesse alguma pasta conforme mostrado abaixo:
+##### 1. Abra seu terminal e em alguma pasta de sua preferência clone o repositório:
 
-- linkar imgs mostrando passo a passo
-
-###### 2. Clone o repositório
-
-Copie o link do repositório
+No diretório do seu computador você vai utilizar o link copiado e executar o código no seu terminal:
 
 ![Clone do Repositório](/public/imgs/clone.png "Clonando um repositório")
 
-Em algum diretório do seu computador você vai utilizar o link copiado e executar o código no seu terminal:
+Agora você execute
 
 ```bash
 git clone <link copiado>
@@ -48,20 +44,20 @@ git clone <link copiado>
 Então, por exemplo, em meu computador eu escreveria o comando:
 
 ```bash
-git clone https://github.com/JohnnyBaptista/Trabalhos-Diverso-FCTUNESP.git
+git clone https://github.com/JohnnyBaptista/Trabalhos-Diversos.git
 ```
 
-Agora acesse a pasta Trabalhos-Diverso-FCTUNESP
+Agora acesse a pasta Trabalhos-Diversos
 
 ```bash
-cd  Trabalhos-Diversos-FCTUNESP
+cd  Trabalhos-Diversos
 ```
 
-###### 3. Adicione o seu trabalho
+##### 2. Adicione o seu trabalho
 
 Seguindo a ***estrutura de pastas*** do repositório, procure a matéria que você deseja adicionar e coloque o copie/salve o arquivo para dentro dela.
 
-###### 4. Crie uma ramificação (branch)
+##### 3. Crie uma ramificação (branch)
 
 As **branches** serão nossa ferramenta para o controle dos trabalhos, códigos e alterações que estão entrando no repositório.
 Para criar uma branch, iremos executar no terminal o comando:
@@ -81,7 +77,7 @@ Então, por exemplo se eu quiser adicionar um trabalho de Programação Orientad
 git checkout -b adc-trabalho-poo
 ```
 
-###### 5. "Commitar" e "pushar" os arquivos adicionados/modificados
+##### 4. "Commitar" e "pushar" os arquivos adicionados/modificados
 
 Antes de enviar é preciso ***"commitar"*** os arquivos adicionados/modificados para o git entender o que você está fazendo.
 Execute:
@@ -99,14 +95,42 @@ Após isso, podemos enviar para o repositório remoto as alterações
 git push origin adc-trabalho-poo
 ```
 
-###### 6. Crie um Pull Request (PR)
+##### 5. Crie um Pull Request (PR)
 
 Quando terminarmos todos esses passos, basta agora criar um pull request para solicitarmos a insersão dos arquivos no repositório de origem. Muitas vezes o próprio github já percebe quando existe uma branch que acabou de ser "pushada", e irá sugerir você comparar e criar a PR. Mas, utilizaremos o "New pull request" da aba de pull request como segue as imagens
 
 #### 1. Entre na aba de PR
+
 ![Aba de Pull Requests](/public/imgs/PR1.png "Aba de PR")
 
 #### 2. Crie uma nova PR
+
 ![Criando uma PR](/public/imgs/PR2.png "Criando uma PR")
 
 #### 3. Selecione a sua branch
+
+![Selecionando uma Branch](/public/imgs/PR3.png "Selecionando uma Branch")
+
+#### 4. Clique para criar uma nova PR
+
+![Criando a PR](/public/imgs/PR4.png "Criando a PR")
+
+#### 5. Descreva o que você está adicionando
+
+Crie um título e depois faça uma breve descrição do que você está adicionando
+
+![Descrevendo a PR](/public/imgs/PR5.png "Descrevendo a PR")
+
+Parabéns!, você acabou de criar sua Pull Request! Esperamos que você contribua sempre!
+
+<img align="center" src="https://media.giphy.com/media/ely3apij36BJhoZ234/giphy.gif">
+
+___
+
+## Nos ajude a melhorar esse repositório!!
+
+Para que esse repositório fique com os melhores códigos e também que fique organizando, você pode nos mandar arquivos de documentação alterações e instruções. 
+
+Não esqueça também de adicionar seu nome na lista de [contribuidores](https://github.com/JohnnyBaptista/Trabalhos-Diversos/tree/master/public/docs/COMPUTEIROS.MD)!!
+
+<img align="center" src="https://media.giphy.com/media/Z21HJj2kz9uBG/giphy.gif">
