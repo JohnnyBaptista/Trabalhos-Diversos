@@ -101,4 +101,12 @@ git push origin adc-trabalho-poo
 
 ###### 6. Crie um Pull Request (PR)
 
-Quando terminarmos todos esses passos, basta agora criar um pull request para solicitarmos a insersão dos arquivos no repositório de origem. Para isto, confira as imagens abaixo
+Quando terminarmos todos esses passos, basta agora criar um pull request para solicitarmos a insersão dos arquivos no repositório de origem. Muitas vezes o próprio github já percebe quando existe uma branch que acabou de ser "pushada", e irá sugerir você comparar e criar a PR. Mas, utilizaremos o "New pull request" da aba de pull request como segue as imagens
+
+#### 1. Entre na aba de PR
+![Aba de Pull Requests](/public/imgs/PR1.png "Aba de PR")
+
+#### 2. Crie uma nova PR
+![Criando uma PR](/public/imgs/PR2.png "Criando uma PR")
+
+#### 3. Selecione a sua branch
