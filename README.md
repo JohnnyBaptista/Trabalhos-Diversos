@@ -55,7 +55,7 @@ cd  Trabalhos-Diversos
 
 ##### 2. Adicione o seu trabalho
 
-Seguindo a ***estrutura de pastas*** do repositório, procure a matéria que você deseja adicionar e coloque o copie/salve o arquivo para dentro dela.
+Seguindo a [estrutura de pastas](https://github.com/JohnnyBaptista/Trabalhos-Diversos/issues/6) do repositório, procure a matéria que você deseja adicionar e coloque o copie/salve o arquivo para dentro dela.
 
 ##### 3. Crie uma ramificação (branch)
 
