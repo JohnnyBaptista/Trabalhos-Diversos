@@ -121,10 +121,9 @@ Crie um título e depois faça uma breve descrição do que você está adiciona
 
 ![Descrevendo a PR](/public/imgs/PR5.png "Descrevendo a PR")
 
+***
+
 Parabéns!, você acabou de criar sua Pull Request! Esperamos que você contribua sempre!
-
-<img align="center" src="https://media.giphy.com/media/ely3apij36BJhoZ234/giphy.gif">
-
 ___
 
 ## Nos ajude a melhorar esse repositório!!
