@@ -1,0 +1,210 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/CLionProjects/TEXT RPG ADVENTURE/delay.h
+time.h
+-
+conio.h
+-
+
+C:/CLionProjects/TEXT RPG ADVENTURE/dungeon_tutorial.c
+headers/dungeon_tutorial.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/dungeon_tutorial.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/fightSystem.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+conio.h
+-
+headers/player.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/player.h
+headers/mobs.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobs.h
+headers/mobsSkill.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobsSkill.h
+headers/inventory.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/inventory.h
+headers/fightSystem.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/fightSystem.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/game.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+math.h
+-
+stdbool.h
+-
+dirent.h
+-
+locale.h
+-
+headers/player.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/player.h
+headers/skill.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/skill.h
+headers/inventory.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/inventory.h
+headers/lore.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/lore.h
+headers/mobs.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobs.h
+headers/mobs_name.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobs_name.h
+headers/fightSystem.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/fightSystem.h
+headers/dungeon_tutorial.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/dungeon_tutorial.h
+headers/puzzle_stack.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/puzzle_stack.h
+delay.h
+C:/CLionProjects/TEXT RPG ADVENTURE/delay.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/dungeon_tutorial.h
+stdio.h
+-
+stdlib.h
+-
+conio.h
+-
+locale.h
+-
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/fightSystem.h
+skill.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/skill.h
+mobsSkill.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobsSkill.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/game.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/inventory.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/lore.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobs.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobsSkill.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobs_name.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/player.h
+stdbool.h
+-
+inventory.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/inventory.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/puzzle_stack.h
+stdio.h
+-
+stdlib.h
+-
+conio.h
+-
+string.h
+-
+
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/skill.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+C:/CLionProjects/TEXT RPG ADVENTURE/inventory.c
+stdbool.h
+-
+headers/inventory.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/inventory.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+locale.h
+-
+headers/game.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/game.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/mobs.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+time.h
+-
+headers/mobs.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobs.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/mobsSkill.c
+headers/mobsSkill.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/mobsSkill.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/player.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+locale.h
+-
+headers/player.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/player.h
+headers/skill.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/skill.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/puzzle_stack.c
+headers/puzzle_stack.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/puzzle_stack.h
+
+C:/CLionProjects/TEXT RPG ADVENTURE/skill.c
+headers/player.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/player.h
+headers/skill.h
+C:/CLionProjects/TEXT RPG ADVENTURE/headers/skill.h
+

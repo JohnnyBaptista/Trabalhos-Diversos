@@ -1,0 +1,144 @@
+# depslib dependency file v1.0
+1559676134 source:c:\clionprojects\text rpg adventure\dungeon.c
+	"headers/dungeon.h"
+
+1561172944 source:c:\clionprojects\text rpg adventure\inventory.c
+	<stdbool.h>
+	"headers/inventory.h"
+
+1561172944 c:\clionprojects\text rpg adventure\headers\inventory.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1558665602 source:c:\clionprojects\text rpg adventure\menu.c
+
+1561194695 source:c:\clionprojects\text rpg adventure\fightsystem.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<conio.h>
+	"headers/player.h"
+	"headers/mobs.h"
+	"headers/mobsSkill.h"
+	"headers/inventory.h"
+	"headers/fightSystem.h"
+
+1561180919 c:\clionprojects\text rpg adventure\headers\player.h
+	<stdbool.h>
+	"inventory.h"
+
+1561172249 c:\clionprojects\text rpg adventure\headers\mobs.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1559413104 c:\clionprojects\text rpg adventure\headers\mobsskill.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1561167982 c:\clionprojects\text rpg adventure\headers\fightsystem.h
+	"skill.h"
+	"mobsSkill.h"
+
+1561245963 c:\clionprojects\text rpg adventure\headers\skill.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1559454114 source:c:\clionprojects\text rpg adventure\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	"headers/game.h"
+
+1559414256 c:\clionprojects\text rpg adventure\headers\game.h
+
+1561195552 source:c:\clionprojects\text rpg adventure\mobs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	"headers/mobs.h"
+
+1559517104 source:c:\clionprojects\text rpg adventure\dialogue.c
+	"headers/dialogue.h"
+
+1559517101 c:\clionprojects\text rpg adventure\headers\dialogue.h
+
+1559517071 source:c:\clionprojects\text rpg adventure\npc.c
+	"headers/npc.h"
+
+1559517065 c:\clionprojects\text rpg adventure\headers\npc.h
+
+1561195716 source:c:\clionprojects\text rpg adventure\player.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<locale.h>
+	"headers/player.h"
+	"headers/skill.h"
+
+1559675942 c:\clionprojects\text rpg adventure\headers\dungeon.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1559846278 source:c:\clionprojects\text rpg adventure\dungeon_tutorial.c
+	"headers/dungeon_tutorial.h"
+
+1559845946 c:\clionprojects\text rpg adventure\headers\dungeon_tutorial.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<locale.h>
+
+1560633163 source:c:\clionprojects\text rpg adventure\mobsskill.c
+	"headers/mobsSkill.h"
+
+1561339065 source:c:\clionprojects\text rpg adventure\game.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<stdbool.h>
+	<dirent.h>
+	<locale.h>
+	"headers/player.h"
+	"headers/skill.h"
+	"headers/inventory.h"
+	"headers/lore.h"
+	"headers/mobs.h"
+	"headers/mobs_name.h"
+	"headers/fightSystem.h"
+	"headers/dungeon_tutorial.h"
+	"headers/puzzle_stack.h"
+	"delay.h"
+
+1561250085 c:\clionprojects\text rpg adventure\headers\lore.h
+
+1559612892 c:\clionprojects\text rpg adventure\headers\mobs_name.h
+
+1561077489 c:\clionprojects\text rpg adventure\delay.h
+	<time.h>
+	<conio.h>
+
+1561245963 source:c:\clionprojects\text rpg adventure\skill.c
+	"headers/player.h"
+	"headers/skill.h"
+
+1561077563 c:\clionprojects\text rpg adventure\headers\puzzle_stack.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1561339065 source:c:\clionprojects\text rpg adventure\puzzle_stack.c
+	"headers/puzzle_stack.h"
+
