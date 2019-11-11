@@ -1,0 +1,2 @@
+Falta desenvolver o algoritmo de Bresenham para desenhar circunferências e linkar ao botão op2.
+Outras funcionalidades podem ser implementadas, como a casinha 3D com transformações e mudanças de perspectiva (Cavalera, ...), etc.
