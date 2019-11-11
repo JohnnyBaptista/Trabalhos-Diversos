@@ -1,0 +1,1 @@
+Tempo de execução do Seleção Direta com vetor de elementos em ordem aleatória [Execução 0]: 6,079000
