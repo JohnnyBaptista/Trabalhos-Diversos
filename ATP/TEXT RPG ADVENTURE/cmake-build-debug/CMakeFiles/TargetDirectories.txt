@@ -1,0 +1,3 @@
+C:/CLionProjects/TEXT RPG ADVENTURE/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/CLionProjects/TEXT RPG ADVENTURE/cmake-build-debug/CMakeFiles/TEXT_RPG_ADVENTURE.dir
+C:/CLionProjects/TEXT RPG ADVENTURE/cmake-build-debug/CMakeFiles/edit_cache.dir
