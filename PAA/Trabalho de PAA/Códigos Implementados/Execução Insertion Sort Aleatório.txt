@@ -1,0 +1,1 @@
+Tempo de execução do Insertion Sort com vetor de elementos em ordem aleatória [Execução 0]: 4,098000
