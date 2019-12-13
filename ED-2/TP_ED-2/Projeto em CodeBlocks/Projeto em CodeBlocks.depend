@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1575073185 source:c:\clionprojects\novo tped2\algoritmos_de_busca.c
+	"headers/estruturas.h"
+	"headers/algoritmos_de_busca.h"
+
+1575073185 c:\clionprojects\novo tped2\headers\estruturas.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+
+1574963742 c:\clionprojects\novo tped2\headers\algoritmos_de_busca.h
+	<stdio.h>
+	<stdlib.h>
+
+1573353970 source:c:\clionprojects\novo tped2\grafos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<time.h>
+	<assert.h>
+	<dirent.h>
+	"headers/grafos.h"
+	"headers/helper.h"
+	"headers/algoritmos_de_busca.h"
+	"headers/estruturas.h"
+	"headers/mini_controller.h"
+
+1575069378 c:\clionprojects\novo tped2\headers\grafos.h
+	"estruturas.h"
+
+1573349918 c:\clionprojects\novo tped2\headers\helper.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1573349142 c:\clionprojects\novo tped2\headers\mini_controller.h
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<dirent.h>
+
+1575069691 source:c:\clionprojects\novo tped2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"headers/grafos.h"
+
+1573349900 source:c:\clionprojects\novo tped2\mini_controller.c
+	"headers/mini_controller.h"
+
